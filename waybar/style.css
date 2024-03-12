@@ -361,12 +361,11 @@ label:focus {
     background-color: #0069d4;
 }
 
-#custom-custom-pacman{
+#custom-pacman{
 	border-radius: 10;
-   color:#d08770;
+   color:#ffffff;
    background-color: #000000;
 }
-
 #custom-weather{
 	border-radius: 10;
 	color:#2ecc71;
