@@ -112,10 +112,10 @@
         },
         "format": "{icon} {capacity}%",
         "rotate": 0,
-        "format-charging": "  {capacity}%",
+        "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
         "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": [" ", " ", " ", " ", " "]
     },
 
     "backlight": {
