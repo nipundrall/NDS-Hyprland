@@ -7,7 +7,7 @@
     min-height: 10px;
 }
 
-@import "/home/nipun/.config/waybar/NDS_waybar.css";
+@import "~/.config/waybar/NDS_waybar.css";
 
 window#waybar {
     background: @bar-bg;
