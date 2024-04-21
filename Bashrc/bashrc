@@ -2,7 +2,7 @@
 # ~/.bashrc
 #
 
-kitten icat --stdin=no --use-window-size $COLUMNS,$LINES,151,146 --transfer-mode=file /home/nipun/.config/neofetch/pngs/doremon.png && neofetch
+kitten icat --stdin=no --use-window-size $COLUMNS,$LINES,151,146 --transfer-mode=file ~/.config/neofetch/pngs/doremon.png && neofetch
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
