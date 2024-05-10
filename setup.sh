@@ -6,7 +6,7 @@ ndshypr="$HOME/ndshypr"
 
 #Installing Dependencies (arch only)
 echo "Installing Dependencies"
-sudo pacman -S hyprland discord kitty neofetch pulsemixer waybar git vim hyprpaper hyprlock hypridle wofi cliphist gnome-weather gnome-calculator swaync polkit-kde-agent && yay -S nerd-fonts-complete ttf-icomoon-feather
+sudo pacman -S hyprland nautilus discord kitty neofetch pulsemixer waybar git vim hyprpaper hyprlock hypridle wofi cliphist gnome-weather gnome-calculator swaync grub-customizer polkit-kde-agent ttf-jetbrains-mono-nerd ttf-jetbrains-mono qt5-graphicaleffects qt5-quickcontrols plasma-desktop &&sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S wlogout nerd-fonts-complete ttf-icomoon-feather wayland-logout 
 
 #Download Dots
 echo "Downloading Dotfiles"
@@ -15,23 +15,16 @@ cd && git clone https://github.com/nipundrall/NDS-Hyprland.git
 mv NDS-Hyprland ndshypr
 
 cd $ndshypr
-#ln -s $HOME/ndshypr/qtile ~/.config
-#ln -s $HOME/ndshypr/alacritty ~/.config
-#ln -s $HOME/ndshypr/zsh ~/.config
-#ln -s $HOME/ndshypr/dunst ~/.config
-#ln -s $HOME/ndshypr/mpd ~/.config
-#ln -s $HOME/ndshypr/ncmpcpp ~/.config
-#ln -s $HOME/ndshypr/mpv ~/.config
-rm -r ~/.config/neofetch && ln -s $HOME/ndshypr/neofetch ~/.config
-#ln -s $HOME/ndshypr/picom ~/.config
-#ln -s $HOME/ndshypr/ranger ~/.config
-#ln -s $HOME/ndshypr/qutebrowser ~/.config
-#ln -s $HOME/ndshypr/rofi ~/.config
-ls -s $HOME/ndshypr/vim/vimrc $HOME
-ls -s $HOME/ndshypr/hypr ~/.config
-ls -s $HOME/ndshypr/waybar ~/.config
-ls -s $HOME/ndshypr/wofi ~/.config
-ls -s $HOME/ndshypr/bashrc $HOME
+
+cp -r $HOME/ndshypr/hypr ~/.config
+#cp -r $HOME/ndshypr/waybar ~/.config
+cp -r $HOME/ndshypr/wlogout ~/.config
+cp -r $HOME/ndshypr/neofetch ~/.config
+cp -r $HOME/ndshypr/wofi ~/.config
+sudo cp -r $HOME/ndshypr/sddm/sddm.conf.d /etc/
+sudo cp -r $HOME/ndshypr/sddm/sddm/themes/Sugar-Candy /usr/share/sddm/themes
+sudo cp -r $HOME/ndshypr/grub/NDSGrub /boot/grub/themes
+
 
 
 #cd $gitthings && git clone https://gitlab.com/thelinuxcast/scripts.git
@@ -40,3 +33,9 @@ ls -s $HOME/ndshypr/bashrc $HOME
 
 #cd $HOME/.config
 #git clone https://gitlab.com/thelinuxcast/nvim.git
+
+
+
+#Updating 
+echo "Final Updaates"
+sudo pacman -Syu && yay -Syu
