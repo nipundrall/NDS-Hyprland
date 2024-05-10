@@ -6,7 +6,7 @@ ndshypr="$HOME/ndshypr"
 
 #Installing Dependencies (arch only)
 echo "Installing Dependencies"
-sudo pacman -S hyprland nautilus eog gimp libreoffice-still discord kitty neofetch pulsemixer pavucontrol waybar git vim hyprpaper hyprlock hypridle wofi gparted cliphist gnome-disk-utility gnome-weather gnome-calculator swaync grub-customizer polkit-kde-agent ttf-jetbrains-mono-nerd ttf-jetbrains-mono qt5-graphicaleffects qt5-quickcontrols plasma-desktop &&sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S google-chrome wlogout nerd-fonts-complete ttf-icomoon-feather wayland-logout 
+sudo pacman -S hyprland nautilus eog gimp libreoffice-still discord kitty neofetch pulsemixer pavucontrol waybar git vim hyprpaper hyprlock hypridle wofi gparted cliphist gnome-disk-utility gnome-weather gnome-calculator swaync grub-customizer polkit-kde-agent ttf-jetbrains-mono-nerd ttf-jetbrains-mono sddm qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 plasma-desktop &&sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S google-chrome wlogout nerd-fonts-complete ttf-icomoon-feather wayland-logout 
 
 #Download Dots
 echo "Downloading Dotfiles"
