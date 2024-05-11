@@ -237,14 +237,14 @@
 	    "format-icons": {
 		    "default": [" "]
 	    },
-	    "on-click": "kitty -e ~/.config/waybar/module/launch.sh"
+	    "on-click": "kitty -e ~/.config/waybar/modules/launch.sh"
       },
      "custom/swaync": {
 	     "format": " {icon}",
 	     "format-icons": {
 		     "default": [" "]
 	     },
-	     "on-click": "~.config/waybar/module/nt_tray.sh"
+	     "on-click": "~.config/waybar/modules/nt_tray.sh"
      },
 
 
