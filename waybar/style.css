@@ -7,7 +7,7 @@
     min-height: 10px;
 }
 
-@import "~/.config/waybar/NDS_waybar.css";
+@import "~/.config/waybar/ndswaybar.css";
 
 window#waybar {
     background: @bar-bg;
