@@ -2,7 +2,7 @@
 
 echo "What Would you like to Do?
 1  Polkit Authentication
-2 Firefox
+2 Clean Pacman Cache
 3 Htop
 
 "
@@ -22,8 +22,8 @@ fi
 
 if [ $nds -eq 2 ]
 then	
-	echo "Okay it's Updating"
-	firefox
+	echo "Okay it's Cleaning Time"
+	sudo pacman -Rs $(pacman -Qdtq)
 fi	
 
 if [ $nds -eq 3 ] 
