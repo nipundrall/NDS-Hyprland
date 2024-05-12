@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "What Would you like to Do?
+echo "What Would you like to Do $USER ?
 1  Polkit Authentication
 2 Clean Pacman Cache
 3 Htop
