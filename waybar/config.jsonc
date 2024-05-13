@@ -212,7 +212,7 @@
         "exec": "checkupdates | wc -l",       // # of updates
         //"exec": "i=$(checkupdates); echo \"$i\" |wc -l; echo \"$i\" |column -t |tr '\n' '\r'",       // # of updates and tooltip details
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "kitty -e yay -Syu && sudo pacman -Syu", // update system
+        "on-click": "kitty -e ~/.config/waybar/modules/update.sh", // update system
         "signal": 8
     },
      // https://github.com/chubin/wttr.in
