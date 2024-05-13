@@ -1,1 +1,0 @@
-/home/nipun/NDS-Hyprland/Bashrc/bashrc
