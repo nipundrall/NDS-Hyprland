@@ -1,8 +1,7 @@
 #
 # ~/.bashrc
-#
-cowsay "Hello $USER"
-
+#cowsay "Hello $USER"
+# test1
 #kitten icat --stdin=no --use-window-size $COLUMNS,$LINES,151,146 --transfer-mode=file ~/.config/neofetch/pngs/doremon.png && neofetch
 
 # If not running interactively, don't do anything
