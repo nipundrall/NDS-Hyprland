@@ -5,7 +5,8 @@ cowsay "What Would you like to Do $USER ?"
 echo "
 1  Polkit Authentication
 2 Clean Pacman Cache
-3 Htop
+3 NDS-Hypr GitPush
+4 NDS-Hypr GitPll
 "
 
 # Now Getiing Input
@@ -29,9 +30,15 @@ fi
 
 if [ $nds -eq 3 ] 
 then 
-	cowsay " htop"
-	htop
+	cowsay " NDS-Hypr GitPUSH "
+	~/NDS-Hyprland/waybar/modules/ndshyprgitpush.sh
 fi
+
+if [ $nds -eq 4 ]
+then 
+     cowsay " NDS-HYPR GitPULL"
+    ~/NDS-Hyprland/waybar/modules/ndshyprgitpull.sh
+
 
 
 cowsay " it's Done"
