@@ -1,0 +1,1 @@
+/home/nipun/NDS-Hyprland/vim/vimrc
