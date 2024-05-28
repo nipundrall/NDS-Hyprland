@@ -4,9 +4,9 @@ cowsay "What Would you like to Do $USER ?"
 #echo "what would you like to do?"
 echo "
 1  Polkit Authentication
-2 Clean Pacman Cache
-3 NDS-Hypr GitPush
-4 NDS-Hypr GitPll
+2  Clean Pacman Cache
+3  NDS-Hypr GitPush 󰧇 
+4  NDS-Hypr GitPll 󰦿 
 "
 
 # Now Getiing Input
