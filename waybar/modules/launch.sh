@@ -42,7 +42,7 @@ case $nds in
 5)
     cowsay "listing Packages"
     pacman -Qe
-   sleep 10m
+    sleep 10m
 
 esac
 
