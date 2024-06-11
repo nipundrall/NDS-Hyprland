@@ -7,6 +7,7 @@ echo "
 2  Clean Pacman Cache
 3  NDS-Hypr GitPush 󰧇 
 4  NDS-Hypr GitPll 󰦿 
+5 List Packages  
 "
 
 # Now Getiing Input
@@ -38,6 +39,14 @@ if [ $nds -eq 4 ]
 then 
      cowsay " NDS-HYPR GitPULL"
     ~/NDS-Hyprland/waybar/modules/ndshyprgitpull.sh
+fi
+
+if [ $nds -eq 5 ]
+then
+    cowsay "listing Packages"
+    pacman -Qe
+    $?
+fi
 
 
 
