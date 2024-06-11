@@ -16,39 +16,35 @@ read nds
 
 # Working on Input
  
-if [ $nds -eq 1 ]
-then 
+case $nds in
+
+ 1) 
     cowsay "You'll Need Password"
     /usr/lib/polkit-kde-authentication-agent-1
 
-fi
+;;
 
-if [ $nds -eq 2 ]
-then	
+2)
 	cowsay "Okay it's Cleaning Time"
 	sudo pacman -Rs $(pacman -Qdtq)
-fi	
+;;	
 
-if [ $nds -eq 3 ] 
-then 
+3)
 	cowsay " NDS-Hypr GitPUSH "
 	~/NDS-Hyprland/waybar/modules/ndshyprgitpush.sh
-fi
+;;
 
-if [ $nds -eq 4 ]
-then 
+4)
      cowsay " NDS-HYPR GitPULL"
     ~/NDS-Hyprland/waybar/modules/ndshyprgitpull.sh
-fi
+;;
 
-if [ $nds -eq 5 ]
-then
+5)
     cowsay "listing Packages"
     pacman -Qe
-    sleep 10m
-fi
+   sleep 10m
 
-
+esac
 
 cowsay " it's Done"
 
