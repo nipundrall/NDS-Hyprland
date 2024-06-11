@@ -6,5 +6,5 @@ cd NDS-Hyprland
 
 git pull origin main
 
-cowsay " its' Done"
+#cowsay " its' Done"
 
