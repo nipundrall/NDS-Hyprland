@@ -45,10 +45,11 @@ if [ $nds -eq 5 ]
 then
     cowsay "listing Packages"
     pacman -Qe
-    $?
+    sleep 10m
 fi
 
 
 
 cowsay " it's Done"
 
+sleep 5s
