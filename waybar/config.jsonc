@@ -15,7 +15,7 @@
 // positions generated based on config.ctl //
 
 	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","custom/r_end","custom/l_end","wlr/taskbar","custom/spotify","custom/r_end","","custom/padd"],
-	"modules-center": ["custom/padd","custom/l_end","hyprland/window","custom/r_end","custom/l_end", "custom/weather","custom/r_end","custom/padd"],
+	"modules-center": ["custom/padd","#custom/l_end","#hyprland/window","#custom/r_end","custom/l_end", "custom/weather","custom/r_end","custom/padd"],
 	"modules-right": ["custom/padd","custom/l_end","custom/pacman","custom/clipboard","cpu","temperature","memory","tray","battery","custom/r_end","custom/l_end","idle_inhibitor","backlight","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/swaync","custom/launch","custom/r_end","custom/l_end","clock","custom/r_end","custom/padd"],
  
  
@@ -212,7 +212,7 @@
         "exec": "checkupdates | wc -l",       // # of updates
         //"exec": "i=$(checkupdates); echo \"$i\" |wc -l; echo \"$i\" |column -t |tr '\n' '\r'",       // # of updates and tooltip details
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "kitty -e ~/.config/waybar/modules/update.sh", // update system
+        "on-click": "kitty -e $HOME/NDS-Hyprland/waybar/modules/update.sh", // update system
         "signal": 8
     },
      // https://github.com/chubin/wttr.in
@@ -237,14 +237,14 @@
 	    "format-icons": {
 		    "default": [" "]
 	    },
-	    "on-click": "kitty -e ~/.config/waybar/modules/launch.sh"
+	    "on-click": "kitty -e $HOME/NDS-Hyprland/waybar/modules/launch.sh"
       },
      "custom/swaync": {
 	     "format": " {icon}",
 	     "format-icons": {
 		     "default": [" "]
 	     },
-	     "on-click": "~.config/waybar/modules/nt_tray.sh"
+	     "on-click": "$HOME/NDS-Hyprland/waybar/modules/nt_tray.sh"
      },
 
 
