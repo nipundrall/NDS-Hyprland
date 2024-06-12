@@ -13,3 +13,4 @@ yay -Syu
 cowsay "I've Updated Everything on your System"
 
 cowsay " Long Live $USER "
+sleep 5s

@@ -4,7 +4,7 @@ cowsay "What Would you like to Do $USER ?"
 #echo "what would you like to do?"
 echo "
 1  Polkit Authentication
-2  Clean Pacman Cache
+2  Clean Package Cache
 3  NDS-Hypr GitPush 󰧇 
 4  NDS-Hypr GitPll 󰦿 
 5  List Packages
@@ -26,7 +26,10 @@ case $nds in
 
 2)
 	cowsay "Okay it's Cleaning Time"
+        cowsay " First by Pacman"
 	sudo pacman -Rs $(pacman -Qdtq)
+        cowsay " Now by Yay "
+        yay -Sc
 ;;	
 
 3)
