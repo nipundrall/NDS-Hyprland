@@ -8,7 +8,7 @@ echo "
 3  NDS-Hypr GitPush 󰧇 
 4  NDS-Hypr GitPll 󰦿 
 5  List Installed Packages
-6 List Running Packages
+6  List Running Packages
 "
 
 # Now Getiing Input
