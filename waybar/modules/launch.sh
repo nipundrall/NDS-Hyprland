@@ -9,6 +9,7 @@ echo "
 4  NDS-Hypr GitPll 󰦿 
 5  List Installed Packages
 6  List Running Packages
+7  Shuffle Wallpaper
 "
 
 # Now Getiing Input
@@ -52,7 +53,10 @@ case $nds in
 
 6)  
 	ps -u "$USER"
+;;
 
+7)  
+	~/NDS-Hyprland/hypr/Wallpapers/hyprpaper/wallshuf.sh
 esac
 
 cowsay " it's Done"
