@@ -7,7 +7,8 @@ echo "
 2  Clean Package Cache
 3  NDS-Hypr GitPush 󰧇 
 4  NDS-Hypr GitPll 󰦿 
-5  List Packages
+5  List Installed Packages
+6 List Running Packages
 "
 
 # Now Getiing Input
@@ -46,6 +47,11 @@ case $nds in
     cowsay "listing Packages"
     pacman -Qe
     sleep 10m
+    
+;;
+
+6)  
+	ps -u "$USER"
 
 esac
 
