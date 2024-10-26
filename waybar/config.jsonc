@@ -181,8 +181,8 @@
     "pulseaudio#microphone": {
         "format": "{format_source}",
         "rotate": 0,
-        "format-source": "",
-        "format-source-muted": "",
+        "format-source": "",
+        "format-source-muted": "",
         "on-click": "pavucontrol -t 4",
         "on-click-middle": "~/.config/hyprdots/scripts/volumecontrol.sh -i m",
         "on-scroll-up": "~/.config/hyprdots/scripts/volumecontrol.sh -i i",
