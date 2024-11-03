@@ -237,7 +237,7 @@
 	    "format-icons": {
 		    "default": [" "]
 	    },
-	    "on-click": "kitty -e $HOME/NDS-Hyprland/waybar/modules/launch.sh"
+	    "on-click": "kitty -e $HOME/NDS-Hyprland/waybar/modules/launch.sh && exit"
       },
      "custom/swaync": {
 	     "format": " {icon}",
