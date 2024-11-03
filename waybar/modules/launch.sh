@@ -66,4 +66,5 @@ esac
 
 cowsay " it's Done"
 
-sleep 5s
+sleep 5s &
+exit
