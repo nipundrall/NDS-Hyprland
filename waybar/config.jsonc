@@ -248,7 +248,7 @@
      },
 
 "custom/cava": {
-    "exec": "~/.config/hypr/scripts/WaybarCava.sh",
+    "exec": "$HOME/NDS-Hyprland/waybar/modules/cava.sh",
     "format": "{}"
 },
 
