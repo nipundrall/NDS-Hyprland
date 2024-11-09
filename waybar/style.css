@@ -7,7 +7,7 @@
     min-height: 10px;
 }
 
-@import "/home/nipun/NDS-Hyprland/waybar/ndswaybar.css";
+@import "ndswaybar.css";
 
 window#waybar {
     background: @bar-bg;
