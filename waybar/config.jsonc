@@ -249,7 +249,9 @@
 
 "custom/cava": {
     "exec": "waycava.sh",
-    "format": "{}"
+    "format": "{}",
+    "restart-interval": 1,
+    "hide-empty": true
 },
 
 
