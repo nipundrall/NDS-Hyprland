@@ -16,7 +16,7 @@ for ((i = 0; i < bar_length; i++)); do
 done
 
 # Create cava config
-config_file="/home/nipun/.config/cava/config"
+config_file="$HOME/.config/cava/config"
 cat >"$config_file" <<EOF
 [general]
 bars = 10
