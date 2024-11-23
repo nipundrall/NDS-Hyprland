@@ -29,4 +29,4 @@ elif [ $1 = 'volmute' ]; then
     
 fi
 
-notify-send "$msg" "$msg2 $volume"
+notify-send -r 1 "$msg" "$msg2 $volume"
