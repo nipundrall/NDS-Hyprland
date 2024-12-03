@@ -23,7 +23,7 @@ case $nds in
 
  1) 
     cowsay "You'll Need Password"
-    /usr/lib/hyprpolkitagent
+    /usr/lib/polkit-kde-authentication-agent-1
 
 ;;
 
