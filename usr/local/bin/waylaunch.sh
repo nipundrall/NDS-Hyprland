@@ -11,6 +11,7 @@ echo "
 6  List Running Packages
 7  Shuffle Wallpaper
 8  Calculator
+9  Temprature
 "
 
 # Now Getiing Input
