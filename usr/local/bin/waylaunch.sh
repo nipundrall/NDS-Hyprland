@@ -62,6 +62,17 @@ case $nds in
 
 8)
 	waycalculator.sh
+ 
+;;
+
+9)   
+	sensors
+
+;;
+
+n) 
+	exit
+
 esac
 
 cowsay " it's Done"
