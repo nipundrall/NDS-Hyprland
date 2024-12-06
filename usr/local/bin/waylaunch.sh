@@ -68,6 +68,7 @@ case $nds in
 
 9)   
 	sensors
+ sleep 15s
 
 ;;
 
