@@ -1,5 +1,5 @@
 #!/bin/bash
-
+neofetch
 cowsay "What Would you like to Do $USER ?"
 #echo "what would you like to do?"
 echo "
