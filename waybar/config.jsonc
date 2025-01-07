@@ -217,7 +217,7 @@
     },
      // https://github.com/chubin/wttr.in
         "custom/weather": {
-        "exec": "curl 'https://wttr.in/newdelhi?format=2'",
+        "exec": "curl 'https://wttr.in/?format=%f+%c'",
         "interval": 900,
         "on-click": "gnome-weather"
      },
