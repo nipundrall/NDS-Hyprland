@@ -4,8 +4,8 @@ cowsay " Your Cpu Temptarure"
 
 sensors
 
-sleep 5s
+sleep 25s
 
 cowsay "Done"
 
-sleep 1s
+sleep 3s
