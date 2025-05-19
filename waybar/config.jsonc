@@ -203,7 +203,7 @@
         "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
         "format-icons": [" ", " ", " "," "],
-	"on-click": "kitty -e waytemp.sh",
+	"on-click": "kitty -e waycputemp.sh",
     },
  
      "custom/pacman": {
